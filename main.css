@@ -1,0 +1,90 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00cc66;
+    
+}
+nav {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+}  
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00cc66;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+li a {
+    display: block;
+    padding: 10px;
+    float: right;
+    text-decoration: none;
+    color: #ffffff;
+}
+li a:hover {
+    background-color: #009933;
+}
+li a.active {
+    color: white;
+    background-color: #0d261a;
+}
+.logo {
+    display: flex;
+    height: 30vh;
+    width: 3px;
+    background-image: url(https://webstockreview.net/images/chess-clipart-chess-logo-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    min-height: 30rem;
+    margin: 20px 0 0 190px;
+
+}
+
+ h2{
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+.icono,
+.promos {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 auto;
+}
+span {
+    float: right;
+}
+#torneos {
+    text-align: center;
+    margin: 100px 0 100px 0;
+}
+#inicio {
+    margin: 50px 0 50px 0;
+}
+@media (min-width: 768px) {
+    #inicio {
+        text-align: center;
+    }    
+}
+.grid {
+   margin: 0 0 0 70px;
+   line-height: normal;
+}
+.icono {
+    font-size: 30px;
+    color: #009933;
+}
